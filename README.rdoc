@@ -15,6 +15,7 @@ Install
 Type "moretext" command on Mac/Linux, or "ruby -S moretext" on Windows:
 
 einstein:rb-moretext siuying$ moretext
+
 還不賴，還不賴，還不賴，還不賴？
 
 To use MoreText in ruby programs:
