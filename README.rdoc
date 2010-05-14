@@ -14,11 +14,39 @@ Install
 
 Type "moretext" command on Mac/Linux, or "ruby -S moretext" on Windows:
 
-einstein:rb-moretext siuying$ moretext
+$ moretext
 
 還不賴，還不賴，還不賴，還不賴？
 
-To use MoreText in ruby programs:
+To generate more texts:
+
+$ moretext 10
+
+經過了很久，也就便宜，一邊就可省節六、七百塊，怕大家都記不起了，何須非議。
+
+einstein:more-rb siuying$ moretext 10
+
+雖受過欺負，奉行正朔，和純真的孩童們，就是金錢。
+
+便以身體的重力倒下去，那黑暗雖在幾百層的地底，不是一件很合理得快活的事嗎？
+
+這一句千古名言，本來是橫逆不過的。
+
+十五年前的熱鬧，不教臉紅而已。
+
+也沒有走到自由之路的慾望，覺得分外悠遠，一時看鬧熱的人，這是什麼言語？
+
+汝算不到，和他們做新過年。
+
+所以也不擔心到，到城裡去啊！
+
+還有被人家欺辱得不堪的，不趕他出去，老不死的混蛋！
+
+再回到現實世界，過年，汝們吵鬧過人家罷？
+
+甲興奮地說，前進！
+
+Use MoreText in ruby programs:
 
 * require 'moretext'
 * puts MoreText.sentenses(1)
