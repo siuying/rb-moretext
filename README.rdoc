@@ -1,0 +1,28 @@
+= MoreText.js for Ruby
+
+Use MoreText.js to generate chinese text for good.
+
+This gem provide a command "moretext", as well as API to access the service programmatically.
+
+== Help
+
+Install
+
+* gem install moretext
+
+== Usage
+
+Type "moretext" command on Mac/Linux, or "ruby -S moretext" on Windows:
+
+einstein:rb-moretext siuying$ moretext
+還不賴，還不賴，還不賴，還不賴？
+
+To use MoreText in ruby programs:
+
+* require 'moretext'
+* puts MoreText.sentenses(1)
+
+== Thanks
+
+* MoreText.js http://more.handlino.com/ - for fun and powerful service!
+
