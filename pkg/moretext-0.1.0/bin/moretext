@@ -1,6 +1,0 @@
-require 'rubygems'
-require 'moretext'
-
-number = ARGV[0].nil? ? 1 : ARGV[0].to_i
-
-puts MoreText.sentenses(number)
